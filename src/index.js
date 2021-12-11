@@ -8,6 +8,7 @@ import petaco from './members/takomiya-petaco.js';
 import wakaba from './members/touou-wakaba.js';
 import { format } from './format';
 
+const out = './downloads';
 const dict = [
   ...format(oruko),
   ...format(asuki),
@@ -18,4 +19,7 @@ const dict = [
   ...format(wakaba),
 ];
 
-dictMaker(dict, 'win', './downloads'); // The text file is writen.
+// export
+dictMaker(dict, 'win', out);
+dictMaker(dict, 'win-google', out);
+dictMaker(dict, 'mac', out);
