@@ -9,6 +9,12 @@ import wakaba from './members/touou-wakaba.js';
 import { format } from './format';
 
 const out = './downloads';
+const others = [
+  // {
+  //   input: '',
+  //   output: '',
+  // },
+];
 const dict = [
   ...format(oruko),
   ...format(asuki),
@@ -17,6 +23,7 @@ const dict = [
   ...format(naaka),
   ...format(petaco),
   ...format(wakaba),
+  ...others,
 ];
 
 // export
