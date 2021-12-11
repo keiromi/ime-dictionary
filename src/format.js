@@ -69,7 +69,7 @@ export const format = (data) => {
   // その他の値を辞書データに追加
   dictionaryData.push(...setAlias(nameSet.yomi, marks, '：'));
   dictionaryData.push(...setAlias(nameSet.yomi, tags, '＃'));
-  dictionaryData.push(...setAlias(nameSet.yomi, fans, '〜'));
+  dictionaryData.push(...setAlias(nameSet.yomi, fans, '～')); // Windowsを基準
   dictionaryData.push(...setAlias(nameSet.yomi, twitter, '＠'));
 
   return dictionaryData;

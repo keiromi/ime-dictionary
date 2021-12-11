@@ -26,8 +26,15 @@ const dict = [
   ...format(wakaba),
   ...others,
 ];
+// macOS向けのダッシュにWindows向けのダッシュを変換する
+const mac = (_dict) => _dict.map(data => {
+  return {
+    input: data.input.replace(/〜/g, '～'),
+    output: data.output.replace(/〜/g, '～'),
+  };
+});
 
 // export
 dictMaker(dict, 'win', join(out, 'windows.txt'));
 dictMaker(dict, 'win-google', join(out, 'windows--google-ime.txt'));
-dictMaker(dict, 'mac', join(out, 'macos.txt'));
+dictMaker(mac(dict), 'mac', join(out, 'macos.txt'));
