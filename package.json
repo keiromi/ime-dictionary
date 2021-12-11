@@ -1,0 +1,25 @@
+{
+  "name": "ime-dictionary",
+  "description": "ケイロミ共和国用語の辞書データです。",
+  "version": "1.0.0",
+  "author": "ケイロミ共和国",
+  "bugs": {
+    "url": "https://github.com/keiromi/ime-dictionary/issues"
+  },
+  "devDependencies": {
+    "@heppokofrontend/dictionary-file-maker": "^0.1.1"
+  },
+  "type": "module",
+  "homepage": "https://github.com/keiromi/ime-dictionary#readme",
+  "keywords": [],
+  "license": "UNLISENCED",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keiromi/ime-dictionary.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
