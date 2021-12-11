@@ -4,6 +4,7 @@ import asuki from './members/akabami-asuki.js';
 import ecma from './members/kawarabe-ecma.js';
 import limone from './members/kiyomi-limone.js';
 import naaka from './members/naaka.js';
+import wakaba from './members/touou-wakaba.js';
 import { format } from './format';
 
 const dict = [
@@ -12,6 +13,7 @@ const dict = [
   ...format(ecma),
   ...format(limone),
   ...format(naaka),
+  ...format(wakaba),
 ];
 
 dictMaker(dict, 'win', './downloads'); // The text file is writen.
