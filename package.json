@@ -20,6 +20,6 @@
     "url": "git+https://github.com/keiromi/ime-dictionary.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node --es-module-specifier-resolution=node src/index"
   }
 }
