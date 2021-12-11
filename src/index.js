@@ -4,6 +4,7 @@ import asuki from './members/akabami-asuki.js';
 import ecma from './members/kawarabe-ecma.js';
 import limone from './members/kiyomi-limone.js';
 import naaka from './members/naaka.js';
+import petaco from './members/takomiya-petaco.js';
 import wakaba from './members/touou-wakaba.js';
 import { format } from './format';
 
@@ -13,6 +14,7 @@ const dict = [
   ...format(ecma),
   ...format(limone),
   ...format(naaka),
+  ...format(petaco),
   ...format(wakaba),
 ];
 
