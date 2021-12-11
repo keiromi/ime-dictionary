@@ -1,6 +1,6 @@
 # ケイロミ共和国用語・単語IME辞書
 
-https://user-images.githubusercontent.com/6637993/145686756-86690e64-870b-490f-91f2-65e268da9286.mp4
+https://user-images.githubusercontent.com/6637993/145686821-6af0e18f-d412-4e0a-aacf-2eec52a95a6d.mp4
 
 ケイロミ共和国の関連用語の辞書ファイルです。
 
