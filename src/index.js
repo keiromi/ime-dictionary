@@ -7,6 +7,7 @@ import naaka from './members/naaka.js';
 import petaco from './members/takomiya-petaco.js';
 import wakaba from './members/touou-wakaba.js';
 import { format } from './format';
+import { join } from 'path';
 
 const out = './downloads';
 const others = [
@@ -27,6 +28,6 @@ const dict = [
 ];
 
 // export
-dictMaker(dict, 'win', out);
-dictMaker(dict, 'win-google', out);
-dictMaker(dict, 'mac', out);
+dictMaker(dict, 'win', join(out, 'windows.txt'));
+dictMaker(dict, 'win-google', join(out, 'windows--google-ime.txt'));
+dictMaker(dict, 'mac', join(out, 'macos.txt'));
