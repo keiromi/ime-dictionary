@@ -42,8 +42,8 @@ export const format = (data) => {
         ...nameYomi.split(/\s/),
       ])],
       kaki: [...new Set([
-        nameKaki.replace(/\s/g, ''),
-        ...nameKaki.split(/\s/),
+        (nameKaki || nameYomi).replace(/\s/g, ''),
+        ...(nameKaki || nameYomi).split(/\s/),
       ])],
     };
 

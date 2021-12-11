@@ -1,6 +1,6 @@
 /**
  * @typedef LiverData - ライバー情報のデータ構造
- * @property {[string, string]} name -  よみ、語句
+ * @property {[string, string] | [string]} name -  よみ、語句
  * @property {([string, string] | [string])[]} alias -  あだ名。[よみがな, 語句][]
  * @property {string[]} marks -  推しマーク
  * @property {string[]} tags -  ハッシュタグ
