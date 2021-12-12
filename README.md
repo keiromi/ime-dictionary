@@ -29,11 +29,18 @@ https://user-images.githubusercontent.com/6637993/145686821-6af0e18f-d412-4e0a-a
 
 ## 使い方
 
-辞書データの読み込み方法について説明します。
+辞書データの読み込み方法について説明します。  
+テキストファイルをダウンロードしたあと、ユーザー辞書ツールに読み込ませて使います。
 
 ### ダウンロード
 
-[Downloads](/downloads)
+[Downloadsはこちらから](/downloads)
+
+環境に合わせてテキストファイルページの「Raw」ボタンを右クリックしてダウンロードしてください。
+
+![](./images/download.png)
+
+![](./images/download02.png)
 
 ### インストール方法
 
