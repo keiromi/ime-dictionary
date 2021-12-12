@@ -7,7 +7,7 @@
     "url": "https://github.com/keiromi/ime-dictionary/issues"
   },
   "devDependencies": {
-    "@heppokofrontend/dictionary-file-maker": "^0.2.0"
+    "@heppokofrontend/dictionary-file-maker": "^0.2.1"
   },
   "type": "module",
   "homepage": "https://github.com/keiromi/ime-dictionary#readme",
