@@ -11,10 +11,10 @@ import { join } from 'path';
 
 const out = './downloads';
 const others = [
-  // {
-  //   input: '',
-  //   output: '',
-  // },
+  {
+    input: 'しとらんど',
+    output: 'シトランド',
+  },
 ];
 const dict = [
   ...format(oruko),
