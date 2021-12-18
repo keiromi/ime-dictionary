@@ -16,4 +16,7 @@ export default ({
   ],
   fans: ['りもねいと'],
   twitter: ['@kiyomi_limone'],
+  others: [
+    ['しとらんど', 'シトランド'],
+  ],
 });
