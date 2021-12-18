@@ -172,3 +172,4 @@
 ＠とうおうわかば,@touou_wakaba,普通名詞
 ＠とうおう,@touou_wakaba,普通名詞
 ＠わかば,@touou_wakaba,普通名詞
+しとらんど,シトランド,普通名詞

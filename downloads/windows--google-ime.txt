@@ -172,3 +172,4 @@
 ＠トウオウワカバ	@touou_wakaba	名詞
 ＠トウオウ	@touou_wakaba	名詞
 ＠ワカバ	@touou_wakaba	名詞
+シトランド	シトランド	名詞
