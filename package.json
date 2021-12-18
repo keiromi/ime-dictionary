@@ -1,7 +1,7 @@
 {
   "name": "ime-dictionary",
   "description": "ケイロミ共和国用語の辞書データです。",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "ケイロミ共和国",
   "bugs": {
     "url": "https://github.com/keiromi/ime-dictionary/issues"
