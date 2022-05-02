@@ -151,6 +151,7 @@
 ＠ペェ	@petaco_takomiya	名詞
 ＠ペェチャン	@petaco_takomiya	名詞
 ＠ペエチャン	@petaco_takomiya	名詞
+ラコランティス	タコランティス	名詞
 トウオウワカバ	藤黄わかば	名詞
 トウオウ	藤黄	名詞
 ワカバ	わかば	名詞
