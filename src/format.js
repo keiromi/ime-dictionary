@@ -31,7 +31,7 @@ const setAlias = (yomiSet = [], kakiSet = [], prefix = '') => {
  * @param {LiverData} data
  */
 export const format = (data) => {
-  const { name, alias, marks, tags, fans, twitter } = data;
+  const { name, alias, marks, tags, fans, twitter, others } = data;
   /** 名前の読みと書き。各変換のよみとして利用される */
   const nameSet = (() => {
     const [nameYomi, nameKaki] = name;
@@ -57,6 +57,10 @@ export const format = (data) => {
     return _nameSet;
   })();
   const dictionaryData = [];
+  const othersSet = others?.map(([input, output]) => ({
+    input,
+    output,
+  })) || [];
 
   // 名前を辞書データに追加
   nameSet.yomi.forEach((yomi, idx) => {
@@ -71,6 +75,7 @@ export const format = (data) => {
   dictionaryData.push(...setAlias(nameSet.yomi, tags, '＃'));
   dictionaryData.push(...setAlias(nameSet.yomi, fans, '～')); // Windowsを基準
   dictionaryData.push(...setAlias(nameSet.yomi, twitter, '＠'));
+  dictionaryData.push(...othersSet);
 
   return dictionaryData;
 };
