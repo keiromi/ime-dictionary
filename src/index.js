@@ -11,12 +11,6 @@ import { format } from './format';
 import { join } from 'path';
 
 const out = './downloads';
-const others = [
-  {
-    input: 'しとらんど',
-    output: 'シトランド',
-  },
-];
 const dict = [
   ...format(oruko),
   ...format(asuki),
@@ -26,7 +20,6 @@ const dict = [
   ...format(petaco),
   ...format(wakaba),
   ...format(kusari),
-  ...others,
 ];
 // macOS向けのダッシュにWindows向けのダッシュを変換する
 const mac = (_dict) => _dict.map(data => {
