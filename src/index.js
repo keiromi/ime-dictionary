@@ -7,6 +7,7 @@ import naaka from './members/nakaoka-naaka.js';
 import petaco from './members/takomiya-petaco.js';
 import wakaba from './members/touou-wakaba.js';
 import kusari from './members/tetsuno-kusari.js';
+import oru from './members/yorushiro-oru.js';
 import { format } from './format';
 import { join } from 'path';
 
@@ -20,6 +21,7 @@ const dict = [
   ...format(petaco),
   ...format(wakaba),
   ...format(kusari),
+  ...format(oru),
 ];
 // macOS向けのダッシュにWindows向けのダッシュを変換する
 const mac = (_dict) => _dict.map(data => {
