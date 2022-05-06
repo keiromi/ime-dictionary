@@ -6,6 +6,7 @@ import limone from './members/kiyomi-limone.js';
 import naaka from './members/nakaoka-naaka.js';
 import petaco from './members/takomiya-petaco.js';
 import wakaba from './members/touou-wakaba.js';
+import kusari from './members/tetsuno-kusari.js';
 import { format } from './format';
 import { join } from 'path';
 
@@ -24,6 +25,7 @@ const dict = [
   ...format(naaka),
   ...format(petaco),
   ...format(wakaba),
+  ...format(kusari),
   ...others,
 ];
 // macOS向けのダッシュにWindows向けのダッシュを変換する
