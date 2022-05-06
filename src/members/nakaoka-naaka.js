@@ -2,7 +2,7 @@ import '../type.d';
 
 /** @type {LiverData} - なあかの辞書データ */
 export default ({
-  name: ['なあか'],
+  name: ['なかおか なあか', '中岡 なあか'],
   alias: [
   ],
   marks: ['🍰🍖'],
