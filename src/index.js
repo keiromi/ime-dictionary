@@ -1,13 +1,14 @@
 import { dictMaker } from '@heppokofrontend/dictionary-file-maker';
-import oruko from './members/amase-oruko.js';
-import asuki from './members/akabami-asuki.js';
-import ecma from './members/kawarabe-ecma.js';
-import limone from './members/kiyomi-limone.js';
-import naaka from './members/nakaoka-naaka.js';
-import petaco from './members/takomiya-petaco.js';
-import wakaba from './members/touou-wakaba.js';
-import kusari from './members/tetsuno-kusari.js';
-import oru from './members/yorushiro-oru.js';
+import oruko from './members/amase-oruko';
+import asuki from './members/akabami-asuki';
+import ecma from './members/kawarabe-ecma';
+import limone from './members/kiyomi-limone';
+import naaka from './members/nakaoka-naaka';
+import petaco from './members/takomiya-petaco';
+import wakaba from './members/touou-wakaba';
+import kusari from './members/tetsuno-kusari';
+import manmaru from './members/manmaru';
+import oru from './members/yorushiro-oru';
 import { format } from './format';
 import { join } from 'path';
 
@@ -21,6 +22,7 @@ const dict = [
   ...format(petaco),
   ...format(wakaba),
   ...format(kusari),
+  ...format(manmaru),
   ...format(oru),
 ];
 // macOS向けのダッシュにWindows向けのダッシュを変換する
