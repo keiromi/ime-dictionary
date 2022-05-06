@@ -18,5 +18,6 @@ export default ({
   twitter: ['@petaco_takomiya'],
   others: [
     ['らこらんてぃす', 'タコランティス'],
+    ['たこみん', 'タコ民'],
   ]
 });

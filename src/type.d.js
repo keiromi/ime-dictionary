@@ -6,5 +6,5 @@
  * @property {string[]} tags -  ハッシュタグ
  * @property {string[]} fans -  ファンネーム
  * @property {string[]} twitter -  Twitter
- * @property {[string, string][]} others -  その他関連用語
+ * @property {[string, string][]} [others] -  その他関連用語
  */
