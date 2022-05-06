@@ -38,7 +38,7 @@ https://user-images.githubusercontent.com/6637993/145686821-6af0e18f-d412-4e0a-a
 
 環境に合わせてテキストファイルページの「Raw」ボタンを右クリックしてダウンロードしてください。
 
-![](./images/download.png)
+![](https://user-images.githubusercontent.com/6637993/167071309-a5185ae2-accb-4429-b036-4b9ceb28547c.png)
 
 ![](./images/download02.png)
 
