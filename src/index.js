@@ -34,6 +34,6 @@ const mac = (_dict) => _dict.map(data => {
 });
 
 // export
-dictMaker(dict, 'win', join(out, 'windows.txt'));
-dictMaker(dict, 'win-google', join(out, 'windows--google-ime.txt'));
-dictMaker(mac(dict), 'mac', join(out, 'macos.txt'));
+dictMaker(dict, 'win', join(out, 'keiromi-windows.txt'));
+dictMaker(dict, 'win-google', join(out, 'keiromi-windows--google-ime.txt'));
+dictMaker(mac(dict), 'mac', join(out, 'keiromi-macos.txt'));
