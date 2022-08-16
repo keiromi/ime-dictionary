@@ -9,6 +9,8 @@ import { wakaba } from './members/touou-wakaba';
 import { kusari } from './members/tetsuno-kusari';
 import { manmaru } from './members/manmaru';
 import { oru } from './members/yorushiro-oru';
+import { kanae } from './members/kanae-sensei';
+import { takatoh } from './members/takatoh-rai';
 import { format } from './format';
 import { join } from 'path';
 
@@ -24,15 +26,23 @@ const dict = [
   ...format(kusari),
   ...format(manmaru),
   ...format(oru),
+  ...format(kanae),
+  ...format(takatoh),
 ];
 // macOS向けのダッシュにWindows向けのダッシュを変換する
 const mac = (_dict) =>
-  _dict.map((data) => {
-    return {
-      input: data.input.replace(/〜/g, '～'),
-      output: data.output.replace(/〜/g, '～'),
-    };
-  });
+  _dict
+    .map(({ input, output }) => {
+      if (!input || !output) {
+        return;
+      }
+
+      return {
+        input: input.replace(/〜/g, '～'),
+        output: output.replace(/〜/g, '～'),
+      };
+    })
+    .filter(Boolean);
 
 // export
 dictMaker(dict, 'win', join(out, 'keiromi-windows.txt'));
