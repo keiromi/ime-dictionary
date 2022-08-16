@@ -1,10 +1,9 @@
 import '../type.d';
 
 /** @type {LiverData} - 赤波見遊城の辞書データ */
-export default ({
+export const asuki = {
   name: ['あかばみ あすき', '赤波見 遊城'],
-  alias: [
-  ],
+  alias: [],
   marks: ['🌹🏰'],
   tags: [
     '#赤波見遊城', // 🏰総合タグ
@@ -16,7 +15,5 @@ export default ({
   ],
   fans: ['あかば民'],
   twitter: ['@AkabamiAsuki'],
-  others: [
-    ['あかば民', 'あかばみん'],
-  ]
-});
+  others: [['あかば民', 'あかばみん']],
+};

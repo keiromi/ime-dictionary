@@ -1,10 +1,9 @@
 import '../type.d';
 
 /** @type {LiverData} - なあかの辞書データ */
-export default ({
+export const naaka = {
   name: ['なかおか なあか', '中岡 なあか'],
-  alias: [
-  ],
+  alias: [],
   marks: ['🍰🍖'],
   tags: [
     '#なあかだよ', // 総合
@@ -15,4 +14,4 @@ export default ({
   ],
   fans: ['おにくたち'],
   twitter: ['@7naaka'],
-});
+};

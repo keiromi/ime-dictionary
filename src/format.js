@@ -37,14 +37,13 @@ export const format = (data) => {
     const [nameYomi, nameKaki] = name;
     const _nameSet = {
       // フルネームと、スペース区切りで分けた値を処理するときに、名字がないパターンを想定して重複を処理
-      yomi: [...new Set([
-        nameYomi.replace(/\s/g, ''),
-        ...nameYomi.split(/\s/),
-      ])],
-      kaki: [...new Set([
-        (nameKaki || nameYomi).replace(/\s/g, ''),
-        ...(nameKaki || nameYomi).split(/\s/),
-      ])],
+      yomi: [...new Set([nameYomi.replace(/\s/g, ''), ...nameYomi.split(/\s/)])],
+      kaki: [
+        ...new Set([
+          (nameKaki || nameYomi).replace(/\s/g, ''),
+          ...(nameKaki || nameYomi).split(/\s/),
+        ]),
+      ],
     };
 
     // あだ名の読みをnameに追加
@@ -57,10 +56,7 @@ export const format = (data) => {
     return _nameSet;
   })();
   const dictionaryData = [];
-  const othersSet = others?.map(([input, output]) => ({
-    input,
-    output,
-  })) || [];
+  const othersSet = others ? others.map(([input, output]) => ({ input, output })) : [];
 
   // 名前を辞書データに追加
   nameSet.yomi.forEach((yomi, idx) => {

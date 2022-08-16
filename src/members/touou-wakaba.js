@@ -1,10 +1,9 @@
 import '../type.d';
 
 /** @type {LiverData} - 藤黄わかばの辞書データ */
-export default ({
+export const wakaba = {
   name: ['とうおう わかば', '藤黄 わかば'],
-  alias: [
-  ],
+  alias: [],
   marks: ['🎨🐾'],
   tags: [
     '#りあたいわかば', // 🎤配信/感想
@@ -15,4 +14,4 @@ export default ({
   ],
   fans: [],
   twitter: ['@touou_wakaba'],
-});
+};

@@ -1,10 +1,9 @@
 import '../type.d';
 
 /** @type {LiverData} - 鉄乃クサリの辞書データ */
-export default ({
+export const kusari = {
   name: ['てつの くさり', '鉄乃 クサリ'],
-  alias: [
-  ],
+  alias: [],
   marks: ['✦🦂'],
   tags: [
     '#人類ちゃん絵画展', // ファンアート
@@ -12,4 +11,4 @@ export default ({
   ],
   fans: ['愚かな人類'],
   twitter: ['@tetsu_no_kusari', '@tetsu_kusa_sub'],
-});
+};

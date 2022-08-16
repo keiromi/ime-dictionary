@@ -1,10 +1,9 @@
 import '../type.d';
 
 /** @type {LiverData} - 真ん丸の辞書データ */
-export default ({
+export const manmaru = {
   name: ['まんまる', '真ん丸'],
-  alias: [
-  ],
+  alias: [],
   marks: ['✒'],
   tags: [
     '#真ん丸落書き', // ファンアート
@@ -12,4 +11,4 @@ export default ({
   ],
   fans: ['担当編集さん'],
   twitter: ['@Manmaru_Vtuber'],
-});
+};

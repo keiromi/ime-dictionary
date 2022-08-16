@@ -1,10 +1,9 @@
 import '../type.d';
 
 /** @type {LiverData} - 河童エクマの辞書データ */
-export default ({
+export const ecma = {
   name: ['かわらべ えくま', '河童 エクマ'],
-  alias: [
-  ],
+  alias: [],
   marks: ['🥒'],
   tags: [
     '#かわらいぶ', // 配信タグ
@@ -16,4 +15,4 @@ export default ({
   ],
   fans: ['はすのこ'],
   twitter: ['@kawarabeecma'],
-});
+};

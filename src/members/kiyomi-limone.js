@@ -1,10 +1,9 @@
 import '../type.d';
 
 /** @type {LiverData} - 清美りもねの辞書データ */
-export default ({
+export const limone = {
   name: ['きよみ りもね', '清美 りもね'],
-  alias: [
-  ],
+  alias: [],
   marks: ['🍊🍋'],
   tags: [
     '#清美りもね', // 総合
@@ -18,7 +17,5 @@ export default ({
   ],
   fans: ['りもねいと'],
   twitter: ['@kiyomi_limone'],
-  others: [
-    ['しとらんど', 'シトランド'],
-  ],
-});
+  others: [['しとらんど', 'シトランド']],
+};
