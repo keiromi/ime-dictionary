@@ -28,10 +28,16 @@ const dict = [
   ...format(oru),
   ...format(kanae),
   ...format(takatoh),
-  {
-    input: '：けいろみ',
-    output: '🏞',
-  },
+  ...format({
+    name: ['けいろみ きょうわこく', 'ケイロミ 共和国'],
+    alias: [],
+    marks: ['🏞'],
+    tags: [
+      '#ケイロミ共和国', // 総合
+    ],
+    fans: [],
+    twitter: ['@keiromirepublic'],
+  }),
 ];
 // macOS向けのダッシュにWindows向けのダッシュを変換する
 const mac = (_dict) =>
