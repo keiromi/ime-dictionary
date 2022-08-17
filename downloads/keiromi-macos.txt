@@ -292,3 +292,4 @@
 ＠たかとー,@takatoh_life,普通名詞
 ＠らい,@takatoh_life,普通名詞
 ＠たかとう,@takatoh_life,普通名詞
+：けいろみ,🏞,普通名詞

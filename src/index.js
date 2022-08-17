@@ -28,6 +28,10 @@ const dict = [
   ...format(oru),
   ...format(kanae),
   ...format(takatoh),
+  {
+    input: '：けいろみ',
+    output: '🏞',
+  },
 ];
 // macOS向けのダッシュにWindows向けのダッシュを変換する
 const mac = (_dict) =>
