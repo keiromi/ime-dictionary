@@ -11,6 +11,7 @@ import { manmaru } from './members/manmaru';
 import { oru } from './members/yorushiro-oru';
 import { kanae } from './members/kanae-sensei';
 import { takatoh } from './members/takatoh-rai';
+import { ice } from './members/lact-ice';
 import { format } from './format';
 import { join } from 'path';
 
@@ -28,6 +29,7 @@ const dict = [
   ...format(oru),
   ...format(kanae),
   ...format(takatoh),
+  ...format(ice),
   ...format({
     name: ['けいろみ きょうわこく', 'ケイロミ 共和国'],
     alias: [],

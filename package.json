@@ -20,6 +20,6 @@
     "url": "git+https://github.com/keiromi/ime-dictionary.git"
   },
   "scripts": {
-    "build": "node --es-module-specifier-resolution=node src/index"
+    "generate": "node --es-module-specifier-resolution=node src/index"
   }
 }
